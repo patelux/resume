@@ -242,10 +242,11 @@ body {
 .tech_skills_list, .soft_skills_list {
     color: #FFFFFF;
     padding: 0;
-    margin-left: 17px;
+    margin-left: 10px;
 }
 .tech_skills_item, .soft_skills_item {
     color: #FB6D3A;
+    list-style:disc;
 }
 .tech_skills_text, .soft_skills_text {
     color: #FFFFFF;
