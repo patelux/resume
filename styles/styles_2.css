@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -28,8 +28,9 @@ body {
 .about_position {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 17px;
+    text-transform: uppercase;
     color: #000000;
     margin-bottom: 20px;
 }
@@ -142,6 +143,7 @@ body {
 /* education styles */
 .education {
     margin-bottom: 40px;
+    list-style: none;
 }
 .university {
     font-style: normal;
@@ -150,6 +152,9 @@ body {
     line-height: 20px;
     color: #FB6D3A;
     margin-bottom: 10px;
+}
+.university:last-child{
+    margin-top: 10px;
 }
 .degree {
     font-style: normal;
